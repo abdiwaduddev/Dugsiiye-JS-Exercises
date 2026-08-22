@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 36</title>
+    <style>
+      #color-box {
+        width: 300px;
+        height: 300px;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Color Picker</h1>
+
+      <div class="picker-row">
+        <label for="color-picker">Choose Color</label>
+        <input type="color" id="color-picker" value="" />
+      </div>
+      <br />
+      <br />
+
+      <div id="color-box" aria-label="Selected Color Preview"></div>
+
+      <h2>Color History</h2>
+
+      <ul id="history-list"></ul>
+
+      <button id="clear-btn">Clear History</button>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
